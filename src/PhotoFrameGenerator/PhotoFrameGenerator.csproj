@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	<Product>PhotoFrameGenerator</Product>
+	<VersionPrefix>0.1.0</VersionPrefix>
+	<Authors>overdrive1708</Authors>
+	<Copyright>Copyright © 2026 overdrive1708</Copyright>
+	<PackageProjectUrl>https://github.com/overdrive1708/PhotoFrameGenerator</PackageProjectUrl>
+	<NeutralLanguage>ja-JP</NeutralLanguage>
+	<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+</Project>

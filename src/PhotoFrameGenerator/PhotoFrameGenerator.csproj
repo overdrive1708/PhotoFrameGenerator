@@ -13,11 +13,16 @@
 	<PackageProjectUrl>https://github.com/overdrive1708/PhotoFrameGenerator</PackageProjectUrl>
 	<NeutralLanguage>ja-JP</NeutralLanguage>
 	<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+	<ApplicationIcon>Resources\ApplicationIcon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DebugType>none</DebugType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\ApplicationIcon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Resources\Strings.Designer.cs">

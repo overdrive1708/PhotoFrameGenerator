@@ -2,6 +2,6 @@
     x:Class="PhotoFrameGenerator.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    StartupUri="Views/MainWindow.xaml">
+    Startup="Application_Startup">
     <Application.Resources />
 </Application>

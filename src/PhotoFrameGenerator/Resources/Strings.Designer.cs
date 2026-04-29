@@ -59,5 +59,25 @@ namespace PhotoFrameGenerator.Resources {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   重要なお知らせ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ImportantNotice {
+            get {
+                return ResourceManager.GetString("ImportantNotice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   致命的なエラーが発生しました｡
+        ///このアプリケーションを終了します｡
+        ///エラーの詳細な情報を表示しますか? に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MessageFatalError {
+            get {
+                return ResourceManager.GetString("MessageFatalError", resourceCulture);
+            }
+        }
     }
 }

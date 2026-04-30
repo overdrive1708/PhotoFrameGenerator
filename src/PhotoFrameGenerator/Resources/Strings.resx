@@ -105,4 +105,64 @@
 このアプリケーションを終了します｡
 エラーの詳細な情報を表示しますか?</value>
   </data>
+  <data name="AddInputFile" xml:space="preserve">
+    <value>入力ファイル追加</value>
+  </data>
+  <data name="MessageGuideDragAndDrop" xml:space="preserve">
+    <value>ファイルもしくはファイルが含まれるフォルダをドラッグ&amp;ドロップしてください｡</value>
+  </data>
+  <data name="InputFileList" xml:space="preserve">
+    <value>入力ファイル一覧</value>
+  </data>
+  <data name="EXIFInformationToDisplay" xml:space="preserve">
+    <value>表示するEXIF情報</value>
+  </data>
+  <data name="CameraModel" xml:space="preserve">
+    <value>カメラ名</value>
+  </data>
+  <data name="LensModel" xml:space="preserve">
+    <value>レンズ名</value>
+  </data>
+  <data name="FocalLength" xml:space="preserve">
+    <value>焦点距離</value>
+  </data>
+  <data name="ExposureMode" xml:space="preserve">
+    <value>露出モード</value>
+  </data>
+  <data name="Aperture" xml:space="preserve">
+    <value>絞り</value>
+  </data>
+  <data name="ShutterSpeed" xml:space="preserve">
+    <value>シャッター速度</value>
+  </data>
+  <data name="ExposureCompensation" xml:space="preserve">
+    <value>露出補正</value>
+  </data>
+  <data name="ISOSensitivity" xml:space="preserve">
+    <value>ISO感度</value>
+  </data>
+  <data name="ShootingDateAndTime" xml:space="preserve">
+    <value>撮影日時</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="MessageStatusNowGenerating" xml:space="preserve">
+    <value>生成しています｡({0}/{1})</value>
+  </data>
+  <data name="MessageStatusCompleteGenerate" xml:space="preserve">
+    <value>生成が完了しました｡</value>
+  </data>
+  <data name="MessageStatusInputFileEmpty" xml:space="preserve">
+    <value>入力ファイルが指定されていません｡</value>
+  </data>
+  <data name="MessageStatusAlreadyGenerate" xml:space="preserve">
+    <value>準備が完了しました｡｢生成｣ボタン押下で生成を行います｡</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="MessageOpenProjectUrl" xml:space="preserve">
+    <value>このアプリケーションのプロジェクトURLを開く</value>
+  </data>
 </root>

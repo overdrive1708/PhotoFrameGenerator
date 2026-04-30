@@ -61,11 +61,119 @@ namespace PhotoFrameGenerator.Resources {
         }
         
         /// <summary>
+        ///   入力ファイル追加 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string AddInputFile {
+            get {
+                return ResourceManager.GetString("AddInputFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   絞り に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Aperture {
+            get {
+                return ResourceManager.GetString("Aperture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   カメラ名 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CameraModel {
+            get {
+                return ResourceManager.GetString("CameraModel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   クリア に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Clear {
+            get {
+                return ResourceManager.GetString("Clear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   表示するEXIF情報 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string EXIFInformationToDisplay {
+            get {
+                return ResourceManager.GetString("EXIFInformationToDisplay", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   露出補正 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ExposureCompensation {
+            get {
+                return ResourceManager.GetString("ExposureCompensation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   露出モード に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ExposureMode {
+            get {
+                return ResourceManager.GetString("ExposureMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   焦点距離 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string FocalLength {
+            get {
+                return ResourceManager.GetString("FocalLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   生成 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Generate {
+            get {
+                return ResourceManager.GetString("Generate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   重要なお知らせ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ImportantNotice {
             get {
                 return ResourceManager.GetString("ImportantNotice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入力ファイル一覧 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string InputFileList {
+            get {
+                return ResourceManager.GetString("InputFileList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ISO感度 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ISOSensitivity {
+            get {
+                return ResourceManager.GetString("ISOSensitivity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レンズ名 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string LensModel {
+            get {
+                return ResourceManager.GetString("LensModel", resourceCulture);
             }
         }
         
@@ -77,6 +185,78 @@ namespace PhotoFrameGenerator.Resources {
         public static string MessageFatalError {
             get {
                 return ResourceManager.GetString("MessageFatalError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ファイルもしくはファイルが含まれるフォルダをドラッグ&amp;ドロップしてください｡ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MessageGuideDragAndDrop {
+            get {
+                return ResourceManager.GetString("MessageGuideDragAndDrop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   このアプリケーションのプロジェクトURLを開く に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MessageOpenProjectUrl {
+            get {
+                return ResourceManager.GetString("MessageOpenProjectUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   準備が完了しました｡｢生成｣ボタン押下で生成を行います｡ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MessageStatusAlreadyGenerate {
+            get {
+                return ResourceManager.GetString("MessageStatusAlreadyGenerate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   生成が完了しました｡ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MessageStatusCompleteGenerate {
+            get {
+                return ResourceManager.GetString("MessageStatusCompleteGenerate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入力ファイルが指定されていません｡ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MessageStatusInputFileEmpty {
+            get {
+                return ResourceManager.GetString("MessageStatusInputFileEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   生成しています｡({0}/{1}) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MessageStatusNowGenerating {
+            get {
+                return ResourceManager.GetString("MessageStatusNowGenerating", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   撮影日時 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ShootingDateAndTime {
+            get {
+                return ResourceManager.GetString("ShootingDateAndTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   シャッター速度 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ShutterSpeed {
+            get {
+                return ResourceManager.GetString("ShutterSpeed", resourceCulture);
             }
         }
     }

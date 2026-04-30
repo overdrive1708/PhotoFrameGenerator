@@ -7,7 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
 	<Product>PhotoFrameGenerator</Product>
-	<VersionPrefix>0.1.0</VersionPrefix>
+	<VersionPrefix>1.0.0</VersionPrefix>
 	<Authors>overdrive1708</Authors>
 	<Copyright>Copyright © 2026 overdrive1708</Copyright>
 	<PackageProjectUrl>https://github.com/overdrive1708/PhotoFrameGenerator</PackageProjectUrl>

@@ -24,11 +24,19 @@
 ## アプリケーション概要
 撮影時の情報を写真の周りに埋め込むアプリケーションです｡
 
+<img alt="加工後のサンプル画像" src="asetts/sample.JPG" height="400">
+
+加工後のサンプル画像
+
 ## ダウンロード方法
  [GitHubのReleases](https://github.com/overdrive1708/PhotoFrameGenerator/releases)にあるLatestのAssetsよりPhotoFrameGenerator_Ver.x.x.x.zipをダウンロードしてください｡
 
 ## 使い方
-T.B.D.
+1. PhotoFrameGenerator.exeを実行します｡
+1. 加工したい画像ファイル(JPEG形式)を｢入力ファイル追加｣にドラッグ&ドロップします｡
+1. 表示させたいEXIF情報を選んで｢生成｣をクリックします｡
+1. 下部ステータスバーに｢生成が完了しました｡｣と表示されたら完了です｡
+1. 加工したい画像ファイルと同じ場所に｢framed-｣が頭についたファイルが出来上がります｡
 
 ## 開発環境
  Visual Studio 2026 Community
